@@ -16,8 +16,8 @@ chatbot = ChatBot('x')
 trainer = ChatterBotCorpusTrainer(chatbot)
 
 # Train the chatbot based on my corpus
-#trainer.train('./data/yml/portuguese') -> português
-trainer.train('chatterbot.corpus.english.greeting')
+trainer.train('./data/yml/portuguese') # -> português
+#trainer.train('chatterbot.corpus.english.greeting')
 
 class App:
     def __init__(self, master = None):
